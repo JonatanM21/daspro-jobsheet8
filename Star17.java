@@ -7,7 +7,7 @@ public class Star17 {
         System.out.print("Masukkan Nilai n =");
         int n = Jonatan.nextInt();
 
-        for (int i = 2; i <= n; i += 2) {
+        for (int i = 1; i <= n; i --) {
         System.out.print(i + " ");
             Jonatan.close();
         }
